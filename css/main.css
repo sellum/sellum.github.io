@@ -1,0 +1,314 @@
+body{
+	background-image: url("../../web_sellum/img/bg_white.jpg")
+}
+nav{
+	background-image:url("../img/bg_footer.jpg");
+	/*background: #333F4C;*/
+	
+    padding-top: 4px;
+    font-family: 'Josefin Sans', sans-serif;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    min-width: 800px;
+  
+ }
+#menu{
+	padding-bottom: 17px;
+    padding-top: 24px;
+    left:0;
+    right:0;
+    top:0;
+    min-width: 800px;
+
+}
+nav li{
+	list-style:none;
+	display:inline-block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0;
+	margin-right: 0;
+	
+}
+
+nav li .active{
+	background: #DADAE0;
+	color:black;
+}
+nav li a:hover{
+	background: #6E7A87;
+}
+nav span{
+	top:0;
+	right:0;
+	position: absolute;
+	text-decoration: none;
+	color: #F3F3F4;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom:17px;
+	transition: 0.5s all ease;
+}
+nav a{
+	text-decoration: none;
+	color: #F3F3F4;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom:17px;
+	transition: 0.5s all ease;
+}
+
+footer{
+	background-image:url(../img/bg_footer.jpg);
+    padding-top: 4px;
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    height: 30px;
+}
+
+/* STYLES DES DIFFERENTS BLOC contenu */
+#contenu{
+	padding-bottom: 34px;
+	min-width:800px;
+}
+#contenu_article{
+	position: relative;
+	width: 1261px;	
+	margin:auto;
+}
+
+/*-------------------------------------*/
+#bloc_article{
+	position: absolute;
+	background-color: white;
+	float:left;
+	width:80%;
+	display: block;
+}
+
+#zone_titre {
+	text-align:left;
+	font-size: 50px;
+	text-transform: uppercase;
+   font-weight: 400;
+   font-family: Impact, Charcoal, sans-serif;
+   display:block;
+   margin-left: 15px;
+   width: 800px;
+
+
+}
+#zone_texte {
+	line-height: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#bloc_article p{
+	overflow-wrap:break-word;
+}
+#bloc_lien{
+	position: absolute;
+	float:right;
+	width: 18%;
+	background-color: white;
+
+	position: relative;
+	margin-top:10px;
+	margin-left: 10px;
+}
+#bloc_commentaire{
+	margin-top:10px;
+	position: absolute;
+	
+	float:left;
+	width:100%;
+	display: block;
+	padding-bottom: 38px;
+}
+
+.commentaire{
+	margin-bottom: 10px;
+	padding:20px;
+	background-color: white;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+
+}
+}
+.commentaire .auteur{
+	display: inline-block;
+}
+
+	
+#banniere{
+	top:5px;
+	height:508px;
+	width: 1261px;
+
+
+}
+
+h1{
+	text-align:center;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#video_intro{	
+	max-width: 70%;
+}
+#stream{
+	float:left;
+	height:80%;	
+	width: 60%;
+
+	position: absolute;
+	margin-left:10%;
+	/*background-color: green;*/
+	display: inline-block;
+	
+}
+#tchat{
+	float:right;
+	/*background-color:red;*/
+	position: absolute;
+	height:80%;
+	width: 20%;
+	min-width: 100px;
+	margin-right:10%;
+	margin-left:70%;
+	display: inline-block;
+}
+#stream_tchat{
+	min-height: 100%;
+	/*background-color:yellow;*/
+	position: relative;
+	display: block;
+	min-width: 1100px;
+
+}
+#bouton{
+	margin-top: 10%;
+	/*background-color: grey;*/
+	position: absolute;
+	left:0;
+	margin-right : 30px;
+
+}
+#bouton a{
+	text-decoration: none	
+}
+#stream_tchat #bouton figure{
+	width: 75px;
+	text-align: center;
+	 font-family: 'Josefin Sans', sans-serif;
+	 margin-top: 50px;
+}
+#planing{
+	position: absolute;
+	/*background-color: blue;*/
+	margin-bottom:50px;
+	width: 100%;	
+	display: block;	
+}
+#planing tr,#planing td{
+	padding: 5px;
+	border-style: solid;
+	text-align: center;
+	border-style:solid;
+
+}
+#planing table{
+	background-color: white;
+	border-collapse: collapse;
+}
+
+.groupe_form label{
+	display: inline-block;
+	text-align: left;
+	
+
+
+}
+.groupe_form{
+	padding:25px;
+	border-style:solid;
+	border-image-repeat:url(../img/bg_footer.jpg);
+	border-width: 1px;
+
+}
+.champ{
+	display: inline-block;
+	right: 0;
+	background-color: black;
+	margin-right: 30%;
+	position:absolute;
+
+	
+}
+.champ input,.champ textarea,.champ select{
+	height:30px;
+	min-width: 200px;
+
+
+}
+
+.valider{
+	position: absolute;
+	display: inline-block;
+	margin:auto;
+	left:45%;
+	
+	
+}
+.couleur_pseudo{
+	position: absolute;
+	display: inline-block;
+	margin:auto;
+	left:47%;
+	
+	
+}
+.newsletter{
+	position: absolute;
+	display: inline-block;
+	margin:auto;
+	left:50%;
+	
+	}
+#formulaire{
+	position:absolute;
+	width:30%;
+	left:35%;
+	right:35%;
+	top:10%;
+	min-width: 500px;
+
+
+
+}
+#contenu_inscription{
+	position: relative;
+	margin-top:2%;
+}
+
+#bouton_planing{
+	position:absolute;
+	margin-top: 10%;
+	margin-left:5%;	
+
+}
+#bouton_planing a{
+	font-size: 40px;
+	text-decoration:none;
+}	

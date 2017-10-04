@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<title>Sellum website</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="../css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/main-less1000.css" media="screen and (max-width: 1000px)" />
+		<link rel="stylesheet" type="text/css" href="../css/main-height-less750.css" media="screen and (max-height: 750px)" />
+	</head>
+	<body>
+		<header>
+			<section id="menu"></section>
+			<nav >
+				<ul>
+					<li><a  href="./accueil.html">home</a></li>
+					<li><a  href="./coaching.html">coaching</a></li>
+					<li><a  href="./streaming.html">streaming</a></li>
+					<li><a  href="./hightlights.html">highlights</a></li>
+				</ul>
+				<span id="connection"><a href="./inscription.html">s'inscrire</a>/<a href="./connecter.html">se connecter</a></span>
+				
+			</nav>
+		</header>
+		<section id="contenu_inscription">
+			<section id="formulaire">
+				<form  method="post" enctype="text/plain" action="/reussi.html">
+					
+					<div id="login" class="groupe_form">
+	 					<label for="login">Login: </label>
+	 					
+	 					<div class="champ">
+	 						<input type="text" name="login" placeholder="Ex: DarkMichou" required />
+	 					</div>
+					</div>
+					<div id="mdp" class="groupe_form" >
+	 					<label  for="mdp">Mot de passe:</label>
+	 					<div class="champ">
+	 						<input  type="password" name="mdp" required />
+	 					</div>
+					</div>
+					<div id="email" class="groupe_form">
+						<label for="email">Adresse e-mail:</label>
+						<div class="champ">
+							<input type="email" name="email" required/>
+						</div>
+					</div>
+					<div id="newsletter" class="groupe_form">
+						<label for="newsletter">Recevoir la newsletter:</label>
+						<div class="newsletter">
+							<input type="checkbox" name="newsletter" checked />
+						</div>
+					</div>
+					<div id="type_utilisation" class="groupe_form" >
+	 					<label  for="type_utilisation">Type d'utilisation:</label>
+	 					<div class="champ">
+		 					<select  name="type_utilisation" >
+		 							<option>Progresser sur le jeu</option>
+		 							<option>Se divertir</option>
+		 							<option>Curiosit&eacute	</option>
+		 					</select>
+		 				</div>
+					</div>
+					<div id="signature" class="groupe_form">
+	 					<label  for="signature">Signature:</label>
+	 					<div class="champ">
+	 						<textarea class="form-control" name="signature" placeholder="Ex: Ecris dans un igloo au groenland" ></textarea>
+	 					</div>
+					</div>
+					<div id="date_naissance" class="groupe_form">
+	 					<label  for="date">Date de naissance:</label>
+	 					<div class="champ">
+	 						<input  type="date" name="date_naissance" />
+	 					</div>
+					</div>
+					<div id="couleur_pseudo" class="groupe_form">
+	 					<label  for="couleur_pseudo">Couleur du pseudo:</label>
+	 					<div class="couleur_pseudo" id="color">
+	 						<input  type="color" name="couleur_pseudo" />
+	 					</div>
+					</div>
+					<div id="submit" class="groupe_form">
+
+						<div class="valider">
+		 					<input type="submit" name="submit" value="Valider" />
+		 				</div>
+					</div>
+				</form>
+			</section>
+		</section>
+		<div id="bloc_footer"></div>	
+		<footer>
+
+		</footer>
+	</body>
+</html>	
