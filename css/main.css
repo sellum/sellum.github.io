@@ -87,10 +87,12 @@ footer{
 
 /*-------------------------------------*/
 #bloc_article{
+	margin-top: 10px;
 	position: absolute;
 	background-color: white;
 	float:left;
 	width:80%;
+	border-radius: 15px;
 	display: block;
 }
 
@@ -107,20 +109,21 @@ footer{
 
 }
 #zone_texte {
+
 	line-height: 25px;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-left: 50px;
 	margin-right: 50px;
 }
 #bloc_article p{
-	overflow-wrap:break-word;
+		overflow-wrap:break-word;
 }
 #bloc_lien{
 	position: absolute;
 	float:right;
 	width: 18%;
 	background-color: white;
-
+	border-radius: 15px;
 	position: relative;
 	margin-top:10px;
 	margin-left: 10px;
@@ -141,13 +144,20 @@ footer{
 	background-color: white;	
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 25px;
-
+	border-radius: 15px;
 }
 }
 .commentaire .auteur{
 	display: inline-block;
 }
+.champ_valider_commentaire{	
+	
+	padding: 10px;
 
+}
+.champ_commentaire textarea{
+	resize: none;
+}
 	
 #banniere{
 	top:5px;
@@ -155,6 +165,10 @@ footer{
 	width: 1261px;
 
 
+
+}
+#banniere img{
+	border-radius: 15px;
 }
 
 h1{
