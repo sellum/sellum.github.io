@@ -142,11 +142,31 @@ footer{
 
 
 }
+.puce_liste img{
+	float:left;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.nb_com{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 2px;
+	color:rgb(66,172,224);
+
+
+}
+.barre{
+	position: absolute;
+	color: black;
+	font-size: 50px; 
+	margin-left: 30px;
+	margin-top: -10px;
+
+}
 #bloc_lien li{
 	list-style:none;
 	display:inline-block;
-	margin-top: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 	margin-left: 0;
 	margin-right: 0;
 	text-align: left;
@@ -155,10 +175,15 @@ footer{
 	height: 70px;
 }
 .type_article{
-	background-color: red;
+	margin-left: 50px;
+	color:rgb(66,172,224);
 }
 .titre_article{
-	background-color: blue;	
+	margin-left: 50px;
+
+}
+#bloc_lien li:hover{
+	background-color: white;
 }
 
 
@@ -180,6 +205,7 @@ footer{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 25px;
 	border-radius: 10px;
+	position: relative;
 }
 .submit_commentaire{
 
@@ -209,9 +235,10 @@ footer{
 	
 }
 .aside_commentaire{
-	right:0;
-	top:0;
 	position: absolute;
+	top:0;
+	right:0;
+
 }
 	
 #banniere{
