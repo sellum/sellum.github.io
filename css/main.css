@@ -119,24 +119,59 @@ footer{
 		overflow-wrap:break-word;
 }
 #bloc_lien{
-	position: absolute;
+	font-size:20px;
 	float:right;
 	width: 18%;
-	background-color: white;
+	
 	border-radius: 10px;
 	position: relative;
 	margin-top:10px;
-	margin-left: 10px;
+	
 }
+#bloc_lien a{
+	text-decoration: none;
+	
+	transition: 0.5s all ease;
+	color:black;
+
+
+}
+#bloc_lien ul{
+
+	padding-left:0;
+
+
+}
+#bloc_lien li{
+	list-style:none;
+	display:inline-block;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: left;
+	
+	width: 100%;
+	height: 70px;
+}
+.type_article{
+	background-color: red;
+}
+.titre_article{
+	background-color: blue;	
+}
+
+
+
 #bloc_commentaire{
 	margin-top:10px;
 	position: absolute;
-	
 	float:left;
 	width:100%;
 	display: block;
 	padding-bottom: 38px;
 }
+
 
 .commentaire{
 	margin-bottom: 10px;
@@ -146,17 +181,37 @@ footer{
 	font-size: 25px;
 	border-radius: 10px;
 }
+.submit_commentaire{
+
+	position: relative;
+	height: 170px;
+}
 }
 .commentaire .auteur{
 	display: inline-block;
 }
+
 .champ_valider_commentaire{	
-	
-	padding: 10px;
+	position: absolute;
+	left: 45%;
+	margin-top:20px;
+
+}
+.champ_valider_commentaire input{
+	width: 100px;
 
 }
 .champ_commentaire textarea{
+	margin-top: 10px;
 	resize: none;
+	height: 100px;
+	margin-left: 25%;
+	
+}
+.aside_commentaire{
+	right:0;
+	top:0;
+	position: absolute;
 }
 	
 #banniere{
