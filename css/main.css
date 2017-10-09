@@ -1,5 +1,6 @@
 body{
-	background-image: url("../img/bg_white.jpg")
+	background-image: url("../img/bg_white.jpg");
+	font-family: 'Josefin Sans', sans-serif;
 }
 nav{
 	background-image:url("../img/bg_footer.jpg");
@@ -338,26 +339,52 @@ h1{
 }
 .groupe_form{
 	padding:25px;
-	border-style:solid;
 	border-image-repeat:url(../img/bg_footer.jpg);
 	border-width: 1px;
+	border-radius: 20px;
+	margin-bottom: 7px;
 
 }
 .champ{
 	display: inline-block;
 	right: 0;
-	background-color: black;
 	margin-right: 30%;
 	position:absolute;
+
+
 
 	
 }
 .champ input,.champ textarea,.champ select{
 	height:30px;
-	min-width: 200px;
-
-
+	min-width: 150px;
+	width: 100px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	border: none;
+	background-image: url("../img/bg_white.jpg");
+	outline: none;
+	padding: 0px 5px 0px 23px;
+	resize: none;
 }
+
+
+
+
+
+
+.champ input:focus,.champ textarea:focus,.champ select:focus{
+	width: 200px;
+	background-color: white;
+}
+
+
 
 .valider{
 	position: absolute;
@@ -382,6 +409,7 @@ h1{
 	left:50%;
 	
 	}
+
 #formulaire{
 	position:absolute;
 	width:30%;
@@ -389,9 +417,9 @@ h1{
 	right:35%;
 	top:10%;
 	min-width: 500px;
-
-
-
+	background:rgb(33,33,33);
+	border-radius:30px;
+	color: #F3F3F4;
 }
 #contenu_inscription{
 	position: relative;
@@ -408,3 +436,4 @@ h1{
 	font-size: 40px;
 	text-decoration:none;
 }	
+
