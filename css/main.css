@@ -6,8 +6,7 @@ body{
 }
 nav{
 	background-image:url("../img/bg_footer.jpg");
-	/*background: #333F4C;*/
-	
+	/*background: #333F4C;*/	
     padding-top: 4px;
     font-family: 'Josefin Sans', sans-serif;
     position:absolute;
@@ -15,7 +14,6 @@ nav{
     right:0;
     top:0;
     min-width: 800px;
-  
  }
 #menu{
 	padding-bottom: 17px;
@@ -24,7 +22,6 @@ nav{
     right:0;
     top:0;
     min-width: 800px;
-
 }
 nav li{
 	list-style:none;
@@ -33,7 +30,6 @@ nav li{
 	margin-bottom: 0px;
 	margin-left: 0;
 	margin-right: 0;
-	
 }
 
 nav li .active{
@@ -112,11 +108,8 @@ footer{
    display:block;
    margin-left: 15px;
    width: 800px;
-
-
 }
 #zone_texte {
-
 	line-height: 25px;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-left: 50px;
@@ -132,21 +125,14 @@ footer{
 	border-radius: 10px;
 	position: relative;
 	margin-top:10px;
-	
 }
 #bloc_lien a{
 	text-decoration: none;
-	
 	transition: 0.5s all ease;
 	color:black;
-
-
 }
 #bloc_lien ul{
-
 	padding-left:0;
-
-
 }
 .puce_liste img{
 	float:left;
@@ -158,8 +144,6 @@ footer{
 	margin-left: 10px;
 	margin-top: 2px;
 	color:rgb(66,172,224);
-
-
 }
 .barre{
 	position: absolute;
@@ -167,7 +151,6 @@ footer{
 	font-size: 50px; 
 	margin-left: 30px;
 	margin-top: -10px;
-
 }
 #bloc_lien li{
 	list-style:none;
@@ -216,7 +199,6 @@ footer{
 	position: relative;
 }
 .submit_commentaire{
-
 	position: relative;
 	height: 170px;
 }
@@ -246,7 +228,6 @@ footer{
 	position: absolute;
 	top:0;
 	right:0;
-
 }
 	
 #banniere{
@@ -254,9 +235,6 @@ footer{
 	height:508px;
 	width: 1261px;
 	margin: auto;
-
-
-
 }
 #banniere img{
 	border-radius: 10px;
@@ -266,7 +244,6 @@ h1{
 	text-align:center;
 	text-transform: uppercase;
 	font-family: 'Josefin Sans', sans-serif;
-
 }
 /* PAGES COACHING */
 
@@ -287,12 +264,10 @@ h1{
 	float:left;
 	height:80%;	
 	width: 60%;
-
 	position: absolute;
 	margin-left:10%;
 	/*background-color: green;*/
 	display: inline-block;
-	
 }
 #tchat{
 	float:right;
@@ -311,7 +286,6 @@ h1{
 	position: relative;
 	display: block;
 	min-width: 1100px;
-
 }
 #bouton{
 	margin-top: 10%;
@@ -319,7 +293,6 @@ h1{
 	position: absolute;
 	left:0;
 	margin-right : 30px;
-
 }
 #bouton a{
 	text-decoration: none	
@@ -342,7 +315,6 @@ h1{
 	border-style: solid;
 	text-align: center;
 	border-style:solid;
-
 }
 #planing table{
 	background-color: white;
@@ -368,27 +340,19 @@ h1{
 .groupe_form label{
 	display: inline-block;
 	text-align: left;
-	
-
-
 }
 .groupe_form{
 	padding:25px;
 	border-image-repeat:url(../img/bg_footer.jpg);
 	border-width: 1px;
 	border-radius: 20px;
-	margin-bottom: 7px;
-
+	margin-bottom:2px;
 }
 .champ{
 	display: inline-block;
 	right: 0;
 	margin-right: 30%;
-	position:absolute;
-
-
-
-	
+	position:absolute;	
 }
 .champ input,.champ textarea,.champ select{
 	height:30px;
@@ -426,24 +390,19 @@ h1{
 	display: inline-block;
 	margin:auto;
 	left:45%;
-	
-	
 }
 .couleur_pseudo{
 	position: absolute;
 	display: inline-block;
 	margin:auto;
 	left:47%;
-	
-	
 }
 .newsletter{
 	position: absolute;
 	display: inline-block;
 	margin:auto;
 	left:50%;
-	
-	}
+}
 
 #formulaire{
 	position:absolute;

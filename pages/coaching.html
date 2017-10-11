@@ -8,49 +8,48 @@
 	</head>
 	<body>
 		<header>
-			<section id="menu"></section>
-			<nav >
+			<section id="menu">
+				<!-- permet de décaler tout les éléments des pages pour prendre en compte le menu qui a était mis en position:absolute pour régler le problème de chrome qui est que  le menu n'allait pas jusqu'au bord de l'ecran même avec un left:0/right:0!-->
+			</section>
+			<nav>
 				<ul>
 					<li><a  href="./accueil.html">home</a></li>
 					<li><a  class="active" href="./coaching.html">coaching</a></li>
 					<li><a  href="./streaming.html">streaming</a></li>
 				</ul>
-				<span id="connection"><a href="./inscription.html">s'inscrire</a>/<a href="./connecter.html">se connecter</a></span>
-
+				<span id="connection">
+					<a href="./inscription.html">s'inscrire</a>
+					/
+					<a href="./connecter.html">se connecter</a>
+				</span>
 			</nav>
 		</header>
-			<section id="banniere">
-					<img src="../img/banniere_1.png"/>
-			</section>
+		<section id="banniere">
+			<img src="../img/banniere_1.png"/>
+		</section>
 		<section id="contenu_article">	
-			
 			<section id="bloc_article">
 				<div id="zone_titre">
 					comment s'ameliorer sur league of legend selon son niveau
 				</div>
 				<div id="zone_texte">
 					<p>
-					League of legend est un jeu d'équipe. Néamoins league of legend rencontre un franc succés au prés des joueurs solo. En effet son système de classement permet de lancer des parties en solo. Ce système créé automatiquement deux équipes d'un niveau équivalent qui se rencontre pour s'affronter sur la faille de l'invocateur. Ici nous verrons comment progresser en soloq. 
+						League of legend est un jeu d'équipe. Néamoins league of legend rencontre un franc succés au prés des joueurs solo. En effet son système de classement permet de lancer des parties en solo. Ce système créé automatiquement deux équipes d'un niveau équivalent qui se rencontre pour s'affronter sur la faille de l'invocateur. Ici nous verrons comment progresser en soloq. 
 					</p>
 					<p>
-					Le système actuel oblige les joueurs a savoir jouer deux rôles minimum. Il faudra donc avoir un pull de champion suffisant, je conseille 3 champions par rôle choisi minimum. L'objectif sera d'apporter plus que votre opposant à votre équipe sur votre lane afin d'augmenter vos chance de gagner. En effet si avec un champions vous arrivez a avoir 60% winrate il vous suffira de lancer les games pour monter. 
+						Le système actuel oblige les joueurs a savoir jouer deux rôles minimum. Il faudra donc avoir un pull de champion suffisant, je conseille 3 champions par rôle choisi minimum. L'objectif sera d'apporter plus que votre opposant à votre équipe sur votre lane afin d'augmenter vos chance de gagner. En effet si avec un champions vous arrivez a avoir 60% winrate il vous suffira de lancer les games pour monter. 
 					</p>
 				</div>	
 				<section id="bloc_commentaire">
 					<div class="submit_commentaire commentaire">
 						<form  method="post" enctype="text/plain" action="">
-							
 							<div id="commentaire" class="champ_commentaire">
 			 					<label for="commentaire">Entrez votre commentaire ici: </label>
-			 					
 			 					<div >
 			 						<textarea cols="70"  name="commentaire"   required maxlength="400"> </textarea>
 			 					</div>
 							</div>
-						
-
 							<div id="submit" class="champ_valider_commentaire">
-
 								<div class="valider">
 				 					<input type="submit" name="submit" value="Valider" />
 				 				</div>
@@ -64,8 +63,7 @@
 							<a href=""><img src="../img/uparrow.png" height="50px" width="50px" alt="vote_up"/></a>
 							<a href=""><img src="../img/downarrow.png" height="50px" width="50px" alt="vote_down" /></a>
 						</aside>
-
-					</div>
+						</div>
 					<div class="commentaire">
 						<div class="auteur">auteur:</div>
 						<div>Très bon article</div>
@@ -73,15 +71,12 @@
 							<a href=""><img src="../img/uparrow.png" height="50px" width="50px" alt="vote_up"/></a>
 							<a href=""><img src="../img/downarrow.png" height="50px" width="50px" alt="vote_down" /></a>
 						</aside>
-
 					</div>
 				</section>
-				
 			</section>
-		
 			<section id="bloc_lien">
-					<ul>
-						<li><a href="./coaching_enTeamFight.html">
+				<ul>
+					<li><a href="./coaching_enTeamFight.html">
 							<div class="puce_liste">
 								<div class="nb_com">2</div>
 								<img src="../img/icon_com.png" height="30px" width="30px" />
@@ -89,10 +84,10 @@
 							</div>
 								<div class="type_article">Trucs & astuce</div>
 								<div class="titre_article">En team fight</<div>
-							</a>
-						</li>
-						<li>
-							<a href="./coaching_surLaLane.html">
+						</a>
+					</li>
+					<li>
+						<a href="./coaching_surLaLane.html">
 							<div class="puce_liste">
 								<img src="../img/icon_com.png" height="30px" width="30px" />
 								<div class="nb_com">4</div>
@@ -100,10 +95,9 @@
 							</div>
 								<div class="type_article">Trucs & astuce</div>
 								<div class="titre_article">Sur la lane</<div>
-							</a>
-						</li>
-						
-					</ul>
+						</a>
+					</li>	
+				</ul>
 			</section>
 		</section>	
 		<footer>
