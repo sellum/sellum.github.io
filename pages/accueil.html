@@ -3,32 +3,32 @@
 		<title>Sellum website</title>
 		<meta charset="UTF-8"/>
 		<link rel="stylesheet" href="../css/main.css"/>
+		<!-- styles supplémentaire si la largeure de l'ecran est inférieur à 1000px -->
 		<link rel="stylesheet" type="text/css" href="../css/main-less1000.css" media="screen and (max-width: 1000px)" />
+		<!-- styles supplémentaire si la largeure de l'ecran est inférieur à 750px -->
 		<link rel="stylesheet" type="text/css" href="../css/main-height-less750.css" media="screen and (max-height: 750px)" />
-
 	</head>
 	<body>
 		<header>
-			<section id="menu"></section>
-			<nav >
+			<section id="menu">
+			<!-- permet de décaler tout les éléments des pages pour prendre en compte le menu qui a était mis en position:absolute pour régler le problème de chrome qui est que  le menu n'allait pas jusqu'au bord de l'ecran même avec un left:0/right:0!-->
+			</section>
+			<nav>
 				<ul>
 					<li><a class="active" href="../pages/accueil.html">home</a></li>
 					<li><a href="./coaching.html">coaching</a></li>
 					<li><a href="./streaming.html">streaming</a></li>
 				</ul>
-				<span id="connection"><a href="./inscription.html">s'inscrire</a>/<a href="./connecter.html">se connecter</a></span>
-
+				<span id="connection">
+					<a href="./inscription.html">s'inscrire</a>/<a href="./connecter.html">se connecter</a>
+				</span>
 			</nav>
 		</header>
 		<section id="contenu">
 			<h1>bienvenue !</h1>
-			<center>
-				<video  src="../video/video_accueil.mp4" controls  type="mp4" > <!-- les dimensions sont géré dans le css -->
-				Votre navigateur ne gère pas l'élément <code>video</code>.
-					
-				</video>
-			</center>
-
+				<div id="video_accueil">
+					<iframe width="1280" height="720" src="https://www.youtube.com/embed/oYAs3TZijCc?rel=0&amp;controls=1&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+				</div>
 		</section>
 		<footer>
 		</footer>

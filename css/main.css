@@ -253,6 +253,7 @@ footer{
 	top:5px;
 	height:508px;
 	width: 1261px;
+	margin: auto;
 
 
 
@@ -270,10 +271,15 @@ h1{
 /* PAGES COACHING */
 
 /* PAGE ACCUEIL */
-#video_intro{	
-	max-width: 70%;
+#video_accueil{
+	position: relative;
+	height: 720;
+	width: 1280;
+	/* le margin auto était impossible du au fait que le video sortait du bloc qui était centré
+	 et que il était impossible de centrer la video directement.*/
+	left:50%;
+	transform: translate(-50%);
 }
-
 /* PAGE ACCUEIL */
 
 /* PAGE STREAMING */
